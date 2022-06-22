@@ -1,0 +1,71 @@
+.students {
+  list-style-type: none;
+  padding-left: 26%;
+  padding-right: 26%;
+}
+
+.button {
+  border: none;
+  border-radius: 2px 2px 2px 2px;
+  margin-bottom: 3%;
+  width: 300px;
+  height: 50px;
+  font-size: large;
+  cursor: pointer;
+  background-color: #f8f8ff;
+}
+
+.align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.delete {
+  background-color: red;
+  cursor: pointer;
+  border-radius: 2px 2px 2px 2px;
+  border: none;
+}
+
+input {
+  border: none;
+  border-radius: 2px 2px 2px 2px;
+  margin-bottom: 3%;
+  width: 380px;
+  height: 30px;
+  font-size: medium;
+  flex-direction: row;
+  display: flex;
+  background-color: #f8f8ff;
+}
+
+label {
+  font-size: medium;
+  color: white;
+}
+
+.add-button {
+  background-color: #ffae4d;
+  cursor: pointer;
+  border-radius: 2px 2px 2px 2px;
+  border: none;
+  width: 300px;
+  height: 50px;
+  font-size: medium;
+}
+
+.students2 {
+  padding-left: 26%;
+  padding-right: 26%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+}

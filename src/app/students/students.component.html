@@ -1,0 +1,20 @@
+<h2 class="align">Estudantes</h2>
+<ul class="students">
+  <li *ngFor="let student of students" class="button">
+    <button type="button" class="delete" title="delete student"
+    (click)="delete(student)">x</button>
+    <a class="link" routerLink="/detail/{{student.id}}">
+      <span class="badge">{{student.name}}</span>
+    </a>
+  </li>
+</ul>
+<app-student-detail [student]="selectedStudent"></app-student-detail>
+<div class="students2">
+  <label for="new-student">Nome do novo estudante </label>
+  <input id="new-student" #studentName />
+
+  <!-- (click) passes input value to add() and then clears the input -->
+  <button type="button" class="add-button" (click)="add(studentName.value); studentName.value=''">
+    Adcionar Estudante
+  </button>
+</div>
